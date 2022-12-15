@@ -1,0 +1,90 @@
+body{
+    font-family: 'Baloo 2', cursive;
+font-family: 'Baloo Bhai 2', cursive;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+
+.hero_image {
+background: url(hero_image.jpg) no-repeat;
+-webkit-background-size: cover;
+background-size: cover;
+height:100vh;
+}
+
+.hero_wrapper{
+    color:rgb(66, 4, 4);
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.hero_wrapper h1{
+    font-size: 1.9rem;
+    text-align: center;
+    background: rgb(253, 223, 223);
+    
+}
+
+.hero_wrapper span {
+    margin-left: 5rem;
+    display: inline-block;
+    margin-button: 0.5rem;
+}
+
+.form_code .post_code{
+    display: block;
+    width: 80%;
+    margin-left:auto;
+    margin-right: auto;
+    border-radius: 2rem;
+    padding: .6rem;
+    border:none;
+    outline:none;
+
+}
+.hero_wrapper span{
+    margin-left: 5rem;
+}
+
+.form_code button{
+    width: 40%;
+    display: block;
+    background-color:palegoldenrod;
+    margin-left:auto;
+    margin-right: auto;
+    text-align: center;
+    color:rgb(6, 15, 1);
+    padding: 0.3rem;
+    margin-top: 1rem;
+    border:none;
+    border-radius:.3rem;
+
+}
+/* product Section */
+.product{
+    width:90%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:.3rem;
+}
+.product_list_item{
+    float:left;
+    width:32%;
+    margin-left:.5rem;
+}
+
+.product_list_item:first-of-type{
+margin-left:0;
+
+}
+
+.src1{
+width:25%;
+height:10%;
+margin-left:20rem;
+margin-right:auto;
+border-radius:5rem;
+}
